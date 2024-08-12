@@ -2,7 +2,7 @@ import { Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import { View, Text } from "react-native";
 
-export default function RootLayout() {
+const RootLayout: React.FC = () =>{
 
   const [fontsLoaded] = useFonts({
 		"outfit": require("./../assets/fonts/Outfit-Regular.ttf"),
@@ -28,4 +28,5 @@ export default function RootLayout() {
   );
 }
 
+export default RootLayout;
 

@@ -10,7 +10,7 @@ export default function LoginScreen() {
 			/>
 			<View className="flex items-center p-8">
 				<Text className="font-[outfit] text-3xl text-center">
-					Ready To Make New Friend?
+					Ready To Make A New Friend?
 				</Text>
 				<Text className="font-[outfit] text-1xl text-center text-gray">
 					Let's Adopt the pet which you like and make their life happy again
@@ -22,3 +22,4 @@ export default function LoginScreen() {
 		</View>
 	);
 }
+
